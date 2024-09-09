@@ -139,6 +139,7 @@ nav li:first-child {
     text-align: center;
     color: black;
     margin-top: 1%;
+    padding: 1%;
 }
 
 .process_content .dot {
@@ -195,7 +196,7 @@ nav li:first-child {
 .footer {
     background-color: rgb(78, 225, 235);
     padding: 20px 0;
-    margin-top: 1cm;
+    margin-top: 2cm;
 }
 
 .container_footer {
@@ -213,6 +214,11 @@ nav li:first-child {
     font-size: 18px;
     font-weight:normal;
     margin: 10px 3cm 10px;
+}
+
+.footer-item a{
+    text-decoration: none;
+    color: black;
 }
 
 /* Media Queries */
@@ -315,6 +321,7 @@ nav li:first-child {
     }
     .process_content {
         font-size: 20px;
+        padding: 2%;
     }
     .benefit_container .benefit_card {
         width: 80%;

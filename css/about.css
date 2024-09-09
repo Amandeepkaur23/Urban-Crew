@@ -172,6 +172,11 @@ nav li:first-child {
     margin: 10px 3cm 10px;
 }
 
+.footer-item a{
+    text-decoration: none;
+    color: black;
+}
+
 /* Media Queries */
 
 /* Desktop */
