@@ -11,7 +11,7 @@
 
     <nav>
         <ul class="sidebar">
-            <li onclick=hideSidebar()><a>=</a></li>
+            <li onclick=hideSidebar()><a>☰</a></li>
             <li><a href="/views/index.html"><h4>Home</h4></a></li>
             <li><a href="/views/about.html"><h4>About Us</h4></a></li>
             <li><a href="/views/technology.html"><h4>Technology</h4></a></li>
@@ -29,7 +29,7 @@
             <li class="hideOnMobile"><a href="/views/contact.html">
                 <button class="contact-button" type="button"><h4>Get Started</h4></button>
              </a></li>
-             <li class="menu_button" onclick=showSidebar()><a>=</a></li>
+             <li class="menu_button" onclick=showSidebar()><a>☰</a></li>
         </ul>
     </nav>
 
@@ -48,9 +48,10 @@
             </div>
         </div>
     </div>
+    <!-- "https://formspree.io/f/mrbzjgby" aman-->
     <div class="form_container">
         <div class="form_content">
-            <form action="https://formspree.io/f/mrbzjgby" method="post" id="contact-form">
+            <form action="https://formspree.io/f/mzzpqpdl" method="post" id="contact-form">
                 <h2>Contact Us</h2>
                 <label for="full-name">Full Name</label>
                 <input type="text" id="full-name" name="full-name" placeholder="Enter your Name" pattern="[A-Za-z\s]{1,50}" required>
@@ -99,7 +100,7 @@
     </footer>
 
     <script type="text/javascript">
-                
+         
         function showSidebar() {
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'flex'
@@ -109,7 +110,6 @@
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'none'
         }
-
     </script>
     
 </body>
