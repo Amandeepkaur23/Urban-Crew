@@ -50,7 +50,7 @@
     </div>
     <div class="form_container">
         <div class="form_content">
-            <form action="https://formspree.io/f/mrbzjgby" method="post" id="contact-form" >
+            <form action="https://formspree.io/f/mrbzjgby" method="post" id="contact-form">
                 <h2>Contact Us</h2>
                 <label for="full-name">Full Name</label>
                 <input type="text" id="full-name" name="full-name" placeholder="Enter your Name" pattern="[A-Za-z\s]{1,50}" required>
@@ -99,6 +99,7 @@
     </footer>
 
     <script type="text/javascript">
+                
         function showSidebar() {
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'flex'
@@ -109,11 +110,6 @@
             sidebar.style.display = 'none'
         }
 
-        window.addEventListener('pageshow', function(event) {
-        if (event.persisted) {
-            form.reset(); // Reset the form if the page is loaded from cache (i.e., user navigates back)
-        }
-    });
     </script>
     
 </body>

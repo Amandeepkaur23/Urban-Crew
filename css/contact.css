@@ -262,6 +262,7 @@ button {
     .sub_heading_content {
         width: 100%;
         font-size: 18px;
+        padding: 10px;
     }
 
     .button_learn_more {
@@ -282,7 +283,7 @@ button {
     }
 
     .footer-item {
-        margin: 1cm;
-        font-size: 10px;
+        margin: 15px;
+        font-size: smaller;
     }
 }

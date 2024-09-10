@@ -271,16 +271,16 @@ nav li:first-child {
     }
     .other_content {
         width: 90%;
-        font-size: 20px;
+        font-size: 18px;
     }
     .other_content:nth-child(2) {
         width: 90%;
         margin: 18px;
-        font-size: 20px;
+        font-size: 18px;
     }
     .footer-item {
-        margin: 20px;
-        font-size: small;
+        margin: 15px;
+        font-size: smaller;
     }
 }
 

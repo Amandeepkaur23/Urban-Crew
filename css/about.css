@@ -276,13 +276,13 @@ nav li:first-child {
         height: auto;
     }
     .other_content {
-        font-size: 20px;
+        font-size: 18px;
         width: 90%;
         margin: 15px;
         text-align: justify;
     }
     .footer-item {
-        margin: 20px;
-        font-size: small;
+        margin: 15px;
+        font-size: smaller;
     }
 }
