@@ -286,15 +286,17 @@ nav li:first-child {
     .other {
         flex-direction: column;
         height: auto;
+        width: 100%;
     }
     .other img {
         width: 80%;
-        margin-top: 1cm;
+        height: 300px;
+        margin-left: 10px;
     }
     .other_content {
         font-size: 18px;
         width: 100%;
-        margin-left: 1cm;
+        margin-top: 10px;
     }
     .other_content h3 {
         text-align: left;
@@ -304,7 +306,7 @@ nav li:first-child {
         margin-top: 0%;
     }
     .footer-item {
-        margin: 15px;
+        margin: 12px;
         font-size: smaller;
     }
 }
